@@ -1,0 +1,78 @@
+
+body{
+    height: 200px;
+    background-repeat: no-repeat, repeat;
+    background-color: rgb(175, 189, 188);
+
+
+}
+
+h1 {
+    color: rgb(23, 31, 53);
+    border-radius: 5px;
+    font-family: Cambria;
+    font-size: 40px;
+    text-align: center;  
+    text-decoration: underline;
+}
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+li {
+    margin-right: 0px;
+    list-style: none;
+    display: flex;
+    border-right: 1px solid rgb(46, 64, 114);
+    border-left: 1px solid rgb(46, 64, 114);
+}
+#menufixo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color:rgb(24, 23, 27);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(132, 161, 240);
+    display: block;
+    width: 260px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    margin: 0 3px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+p {
+    color:rgb(46, 64, 114);
+    font-family: Tahoma;
+    font-size: 20px;
+    text-align: center;
+}
+
+#box {
+    width: fill;
+    height: 3px;
+    background-color: rgb(24, 23, 27);
+    border-radius: 10px;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+#fotoprincipal{
+    background-color: rgb(24, 23, 27);
+    text-align: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-image: url(../Imagens/principalfoto.png);
+    height: 494px;
+    width: 110%;
+    margin-left: -10px;
+    padding-left: 0px;
+}
